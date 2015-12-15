@@ -1,0 +1,58 @@
+<html>
+
+<!-- inserimento commenti-->
+
+<head>
+	<title>
+	Grandissima Prova!!	
+	</title>
+
+</head>
+
+
+
+<body>
+
+	<h1> Con grande fantasia </h1>
+	<h2> Con grande fantasia </h2>
+	<h3> Con grande fantasia </h3>
+	<h4> Con grande fantasia </h4>
+	<h5> Con grande fantasia </h5>
+	<h6> Con grande fantasia </h6>
+
+	<p>Per andare a capo si usa <br /> br / <br />
+	oppure </br> /br </br>
+	Preferibile il primo. </p>
+
+	<p>Con il tag p si crea un nuovo paragrafo e va a capo automaticamente</p>
+
+	<p> Lettere accentate<br />
+	"&"+vocale che prende l'accento+grave o acuto in funzione dell'accento+;<br />
+	caff&egrave;
+	</p>
+
+	<p>Per inserire caratteri speciali si mette & e il numero del carattere speciale<br />
+	&gt; maggiore &+gt+;
+	<br/>
+	&lt; minore &+lt+;
+	<br/>
+	<br/>
+	<b>grassetto</b>
+	<br/>
+	<u>sottolineato</u>
+	<br/>
+	<i>corsivo</i>
+	<br/>
+
+	<b><i>Grassetto e corsivo</i></b>
+	</p>
+
+	<h3>benvenuti <u>sul</u> sito di <i>Bolle di sapone</i></h3>
+
+	<blockquote cite="https://it.wikipedia.org/wiki/Dopo_di_noi,_il_diluvio"> Dopo di noi il diluvio</blockquote>
+
+</body>
+
+
+
+</html>
