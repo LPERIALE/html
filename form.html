@@ -10,9 +10,10 @@
 <style type="text/css">
 
 .box	{background-color:yellow;
+	padding-top:5px;
+	padding-left:20px;
 	color:#986960;
 	text-shadow:0px 1px #654321;
-	text-align:center;
 	font-style:bold;
 	height:400px;
 	width:400px;
@@ -21,7 +22,7 @@
 	margin-bottom:10px;
 	}
 
-.box	p{text-align:left;
+.box	h2{text-align:center;
 	}
 
 .form	{margin-bottom:10px;
@@ -29,16 +30,28 @@
 	text-align:left;
 	}
 
-.input	a:link	{background-color:black;
-		color:white;
-		font-family:'Arial',sans-serif;
-		}
+.input 	{background-color:black;
+	font-family:'Arial',sans-serif;
+	color:white;
+	}
 
-	a:hover	{background-color:white;
+input:focus	{background-color:white;
 		color:red;
-		font-family:'Arial',sans-serif;
 		}
 
+.check	{font-family:'Arial',sans-serif;
+	text-align:left;
+	margin-bottom:20px;
+	color:#660000;
+	text-shadow:none;
+	}
+
+
+
+.invia	{position:relative;
+	top:10px;
+	left:80%;
+	}
 
 </style>
 
@@ -50,34 +63,39 @@
 <div class="box">
 <h2>Registrazione</h2>
 
-<form id="feedback" method="post" action ="mailto:l.p@mmm.com">
+<form id="registrazione" method="post" action ="mailto:l.p@mmm.com">
 
 <div class="form">
 
 <p>
-	<label>Nome</label>
-   	<input type="text" name="Nome" maxlength="10" size="25" autocomplete="on" />
+	<label>Nome</label><br />
+   	<input class="input" type="text" name="Nome" maxlength="10" size="25" autocomplete="on" />
+
 </p>
 
 <p>
-	<label>Email</label>
-	<input type="email" name="email" /> 
+	<label>Email</label><br />
+	<input class="input" type="email" name="email" /> 
+
 </p>
 
 </div>
 
 
-<p>Mezzo posseduto:<br />
-<input type="checkbox" name="gruppi" value="Bike"/>
+<p>Mezzo posseduto:<br /></p>
+<span class="check">
+<input type="radio" name="gruppi" value="Bike" required="required"/>
 <label>I have a bike</label> 
 <br />
 
-<input type="checkbox" name="gruppi" value="Car"/> 
+<input type="radio" name="gruppi" value="Car" required="required"/> 
 <label>I have a car</label>
+</span>
 <br />
 
 
-<label>Marca mezzo</label>
+<p>
+<label>Marca mezzo</label><br />
 <select name="Marca">
 	<option value="Vo" selected="selected">Volvo</option> 
 	<option value="Vw">Volkswagen</option> 
@@ -85,7 +103,9 @@
 </select>
 </p>
 
+<input class="invia" type="submit" value="Invia"/><br />
 
+</form>
 
 </div>
 
