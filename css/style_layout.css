@@ -1,0 +1,43 @@
+.container	{background-color:yellow;}
+			
+.header	{height:140px;
+		background:linear-gradient(to left, red, yellow, green);
+		color:purple;
+		border:solid 4px green;
+		font-family:Arial,Verdana,serif;
+		font-size:32px;
+		text-align:center;
+		font-weight:bold;}
+		
+.header h1	{position:relative;
+			top:-20px}
+			
+.header img	{height:50px;
+			float:left;
+			position:relative;
+			top:50px;}
+		
+.nav	{height:100px;
+		background-color:black;
+		border-bottom:dotted 4px red;}
+	
+.content{padding:10px;
+		text-align:justify;
+		font-size:14px;
+		background-color:white;
+		height:200px;
+		border-left:solid 1px black;
+		border-right:solid 1px black;
+		border-bottom:solid 1px black;}
+		
+.footer	{height:30px;
+		background-color:green;
+		color:red;
+		font-size:12px;
+		text-align:center;}
+
+
+
+
+
+
