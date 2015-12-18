@@ -1,8 +1,10 @@
-.container	{font-family:Arial,Verdana,serif;}
+.container	{font-family:Arial,Verdana,serif;
+			width:70%;
+			margin:0 auto;}
 			
 .header	{height:140px;
-		background:#666699 ;
-		color:#FFFF33;
+		background-color:black;
+		color:#DB7093;
 		font-family:Arial,Verdana,serif;
 		font-size:32px;
 		text-align:center;
@@ -13,32 +15,29 @@
 			position:relative;
 			top:25px;}
 			
-.header img	{height:50px;
-			float:left;
-			position:relative;
-			top:50px;
-			left:10px;}
-		
 .nav	{height:100px;
 		font-size:18px;
-		background-color:#6699CC;
-		margin-bottom:10px;}
-
-.menu	{font-size:18px;
+		margin-bottom:10px;
 		position:relative;
-		left:70px;
-		top:40px;
+		top:-20px;}
+
+.menu	{font-size:14;
+		position:relative;
+		left:40px;
+		top:21px;
 		list-style-type:none;}
 
 .menu 	li	{display:inline;
 			padding:15px;
-			background-color:#CCFFFF;
-			border:2px solid #006699;}
+			background-color:#DB7093;
+			border-left:10px solid #90EE90;}
 			
-.menu 	li a{color:blue;
-			font-weight:bold;}
+.menu 	li a{color:white;
+			font-weight:bold;
+			text-decoration:none;}
 
-.menu 	li a:hover{color:#336699;}
+.menu 	li a:hover{background-color:#90EE90;
+					width:100%;}
 
 	
 .content{padding:10px;
@@ -46,12 +45,11 @@
 		font-size:14px;
 		background-color:white;
 		height:200px;
-		border:solid 1px black;
 		margin-bottom:10px;}
 		
-.footer	{height:30px;
-		background-color:#3333CC;
-		color:yellow;
+.footer	{height:70px;
+		background-color:black;
+		color:#DB7093;
 		font-size:12px;
 		text-align:center;}
 
