@@ -23,7 +23,7 @@
 		font-size:18px;
 		margin-bottom:10px;
 		position:relative;
-		top:-20px;
+		top:-19px;
 		left:15%;}
 
 .menu	li	{display:inline;font-size:14;
@@ -41,7 +41,7 @@
 
 .menu 	li a:hover{background-color:#90EE90;
 			border-left:10px solid #DB7093;}
-
+			
 .content{padding:10px;
 		text-align:justify;
 		font-size:14px;
@@ -70,6 +70,11 @@
 		left:-30%;}
 
 .footer li a{color:#DB7093;
+		font-weight:bold;
+		position:relative;
+		top:30px;}
+		
+.footer li a:hover{color:red;
 		font-weight:bold;
 		position:relative;
 		top:30px;}

@@ -1,0 +1,34 @@
+ul	{list-style:none;}
+
+.navigation li	a 	{width:130px;
+					background-color:red;
+					color:white;
+					margin-right:5px;
+					float:left;
+					text-align:center;
+					text-decoration:none;
+					padding-top:17px;
+					padding-bottom:17px;}
+
+.navigation li a:hover	{background-color:orange;
+						border:2px solid blue;}
+
+.navigation li:hover ul	{display:block;}
+
+.dropdown-nav	{position:absolute;
+				top:70px;
+				display:none;}
+
+.dropdown-nav li a{margin-bottom:10px;}
+				
+.dropdown-nav.zero	{left:170px;}
+				
+.dropdown-nav.uno	{left:300px;}
+
+.dropdown-nav.due	{left:570px;}
+
+
+
+
+
+
