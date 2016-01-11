@@ -1,0 +1,75 @@
+#container {width:90%;
+			margin: 0 auto;} 
+			
+.body	{font-size:14px;
+		/*background-image:url(../immagini/siteBackground.png) repeat;*/
+		margin: 0;
+		padding: 0;
+		color: #707070;}
+
+#header h1	{font-family: 'Averia Sans Libre', cursive;
+			float:left;
+			padding:20px 0 20px 15px;} /*padding: top destra sotto sinistra*/
+
+#header h1 span	{color:red;}
+
+#header h1 a	{text-decoration:none;
+				color:#333333;
+				font-size:48px;}
+
+#header h1 a:hover	{text-decoration:none;	/*uguale tra a e a:hover; così non cambia (è il titolo della pagina, non voglio che cambi*/
+					color:#333333;
+					font-size:48px;}
+					
+.clearfloat	{clear:both;}
+
+#navcontainer	ul	{margin:0;
+					margin-bottom:10px;
+					list-style-type:none;
+					color:white;
+					width:100%;
+					text-align:center;
+					padding:17px 0; /*padding: top&bottom destra&sinistra*/
+					height:18px;
+					background-color:black;} 
+
+#navcontainer	ul li	{display:inline;
+						float:center;}
+
+#navcontainer	ul li a	{text-decoration:none;
+						color:#999999;
+						padding:17px 30px;
+						border-right:1px solid #333333;
+						text-transform:uppercase;}
+
+#navcontainer	ul li a:hover	{color:white;
+								background:url(../immagini/menuActive.jpg) repeat-x;}
+						
+#navcontainer	#active	a	{color:white;
+							background:url(../immagini/menuActive.jpg) repeat-x;}
+							
+#threeBoxes	{padding:4px;
+			margin-left:5%;}
+			
+h2	{color:red;
+	padding:10px 0 20px 0;
+	margin-top:-10px;}
+
+.box	{background-color:#e1e1e1;
+		float:left;
+		width:25%;
+		padding:10px 35px;}
+
+.buttonLink	{background:red;
+			color:white;
+			padding:5px 10px;
+			margin:10px 0;
+			text-decoration:none;
+			border-bottom:solid 2px white;
+			display:inline-block;}
+
+h3 	{color:red;
+	padding:10px 0 20px 0;}
+						
+						
+						

@@ -48,8 +48,14 @@
 				border-left:10px solid #DB7093;}
 
 .menu .active:hover{background-color:#DB7093;
-			border-left:10px solid #90EE90;;
-}
+			border-left:10px solid #90EE90;}
+
+.colonna	{float:left;
+			width:14em;
+			position:relative;
+			left:10px;
+			top:80px;
+			height:200px;}
 
 .content{font-family: 'Exo 2', sans-serif;
 		padding:10px;
@@ -58,15 +64,14 @@
 		color:#90EE90;
 		background-color:white;
 		height:200px;
-		margin-bottom:10px;
-		position:relative;
-		top:-50px;}
+		margin-left:10px;}
 
 .content p{color:black;
 		padding-left:10px;}
 		
 .footer	{height:40px;
 		background-color:black;
+		clear:left;
 		color:white;
 		font-size:12px;
 		text-align:right;
