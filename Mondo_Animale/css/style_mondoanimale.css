@@ -70,6 +70,38 @@ h2	{color:red;
 
 h3 	{color:red;
 	padding:10px 0 20px 0;}
+
+.contenutosx {float:left;
+			width:600px;
+			padding:10px 35px;
+			text-align:justify;}
+
+.imgsx	{float:left;
+		padding:2px 20px 10px 2px;}
+
+.links {margin-left:600px;
+		padding:10px 35px;}
+
+.links li	{display:block;
+			background:url(../immagini/p.png) no-repeat left 6px;
+			padding: 0 0 10px 7px;}
+			
+.links li a	{text-decoration:none;
+			color:#00ace6;}
+
+.links li a:hover	{text-decoration:underline;}
+
+#footer {padding: 0 10px 0 20px;
+		border-top:solid 1px black;}
+
+#footer p	{text-align:center;}
+
+#footer a	{color:#008bce;
+			text-decoration:none;
+			font-size:12px;}
+			
+#footer a:hover	{color:red;
+				font-size:18px;}
 						
 						
 						
